@@ -1,0 +1,10 @@
+
+Proszę ściągnąć:
+https://mvnrepository.com/artifact/org.mockito/mockito-all/1.10.19
+Pole w tabelce Files, jar (1.2 MB)
+
+W dowolnym miejscu na dysku utwórz folder o nazwie "jars" i przekopiuj tam pobrany plik .jar
+
+W menu File -> Project Structure
+Po lewej stronie wybierz 'Libraries' z obszaru 'Project Settings'
+kliknij '+' i wskaż utworzony katalog o nazwie 'jars' (nazwa może być dowolna).

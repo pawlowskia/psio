@@ -1,0 +1,36 @@
+
+Proszę ściągnąć:
+https://search.maven.org/artifact/com.google.code.gson/gson/2.8.6/jar
+
+W dowolnym miejscu na dysku utwórz folder o nazwie "jars" i przekopiuj tam pobrany plik .jar
+
+W menu File -> Project Structure
+Po lewej stronie wybierz 'Libraries' z obszaru 'Project Settings'
+kliknij '+' i wskaż utworzony katalog o nazwie 'jars' (nazwa może być dowolna).
+
+Aby przetestować, skopiuj poniższy kod do pliku (pamiętaj o dostosowaniu nazwy klasy do nazwy pliku:
+/*
+import com.google.gson.Gson;
+
+import java.util.Arrays;
+
+public class GsonTest {
+    public static void main(String[] args) {
+        Gson gson = new Gson();
+        System.out.println(gson.toJson(1));
+        System.out.println(gson.toJson("abcd"));
+        System.out.println(gson.toJson(new Long(10)));
+        int[] values = { 1 };
+        System.out.println(gson.toJson(values));
+
+
+        int one = gson.fromJson("1", int.class);
+        String str = gson.fromJson("\"abc\"", String.class);
+        String[] anotherStr = gson.fromJson("[\"EEE\", \"FFF\"]", String[].class);
+
+        System.out.println(one);
+        System.out.println(str);
+        Arrays.stream(anotherStr).forEach(System.out::println);
+    }
+}
+*/

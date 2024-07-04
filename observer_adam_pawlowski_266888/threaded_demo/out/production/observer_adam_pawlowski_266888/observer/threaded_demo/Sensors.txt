@@ -1,0 +1,5 @@
+Wroclaw 1 1 1
+Walbrzych 1 0 1
+Legnica 0 1 0
+Jelenia Gora 0 0 1
+Lubin 1 0 0
